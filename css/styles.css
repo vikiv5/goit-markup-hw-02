@@ -114,8 +114,8 @@ line-height: 1.6;
 text-align: center;
 color:var(--primary-text-color);
 }
-.btn:hover,
-.btn:focus {
+.btn :hover,
+.btn :focus {
     background-color:var(--accent-color);
     color: var(--discription-text-color); 
 }
@@ -163,6 +163,21 @@ font-size: 16px;
 line-height: 1.2;
 color:var(--secondary-text-color);
 }
+
+/* portfolio*/
+.projects-list h2 {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--primary-text-color);
+}
+.projects-list p {
+font-size: 16px;
+line-height: 1.8;
+color:var(--secondary-text-color);
+}
+
 /* footer */
 .address {
 font-style:normal;

@@ -4,6 +4,7 @@
     --secondary-text-color:#757575;
     --discription-text-color:#FFFFFF;
     --background-color-dark: rgba(47, 48, 58, 1);
+    --background-color-light:#F5F4FA;
     --button-color-active:#188CE8;
     --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
@@ -90,9 +91,6 @@ background-color: var(--accent-color);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 }
 .hero-btn:hover,
@@ -103,7 +101,7 @@ color: var(--discription-text-color);
 }
 
 .btn {
-background-color:#F5F4FA;
+background-color:var(--background-color-light);
 font-family:inherit;
 font-weight: 500;
 font-size: 16px;
@@ -141,7 +139,7 @@ color:var(--secondary-text-color);
 
 /* team section  */
 .team {
-    background-color:#F5F4FA;;
+    background-color:var(--background-color-light);
 }
 .team-name {
 background-color: var(--discription-text-color);

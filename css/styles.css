@@ -98,20 +98,20 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
-.hero-btn, .button-item:hover,
-.hero-btn, .button-item:focus 
+.hero-btn, .btn:hover,
+.hero-btn, .btn:focus ;
 {
 background-color: var(--button-color-active);
-color: var(--discription-text-color);}
+color: var(--discription-text-color);
+}
 
-.button-item {
+.btn {
 font-family:inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
 color:var(--primary-text-color);
-border:none;
 }
 
   /* section about*/

@@ -98,6 +98,7 @@ letter-spacing: 0.06em;
 {
 background-color: var(--button-color-active);
 color: var(--discription-text-color);
+cursor: pointer;
 }
 
 .btn {

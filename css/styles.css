@@ -113,6 +113,7 @@ color:var(--primary-text-color);
 .btn:focus {
 background-color:var(--accent-color);
 color: var(--discription-text-color); 
+cursor: pointer;
 }
   /* section about*/
   .feature-item {

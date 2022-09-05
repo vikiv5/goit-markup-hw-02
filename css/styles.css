@@ -98,11 +98,21 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
-.hero-btn:active,
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn, .btn-item:hover,
+.hero-btn, .btn-item:focus 
+{
 background-color: var(--button-color-active);
 color: var(--discription-text-color)}
+
+.btn-item {
+font-family:inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+color:var(--primary-text-color)
+
+}
 
   /* section about*/
   .feature-item {

@@ -179,11 +179,11 @@ color:var(--secondary-text-color);
 }
 
 /* footer */
-.address {
+.footer {
 font-style:normal;
 background-color: var(--background-color-dark);
 }
-.footer-links{
+.address-links{
 font-size: 14px;
 line-height: 1.7;
 }

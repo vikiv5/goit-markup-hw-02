@@ -114,8 +114,8 @@ line-height: 1.6;
 text-align: center;
 color:var(--primary-text-color);
 }
-.btn link :hover,
-.btn link :focus {
+.btn .link:hover,
+.btn:focus {
     background-color:var(--accent-color);
     color: var(--discription-text-color); 
 }

@@ -98,14 +98,15 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
-.hero-btn, .btn:hover,
-.hero-btn, .btn:focus ;
+.hero-btn:hover,
+.hero-btn:focus
 {
 background-color: var(--button-color-active);
 color: var(--discription-text-color);
 }
 
 .btn {
+background-color:#F5F4FA;
 font-family:inherit;
 font-weight: 500;
 font-size: 16px;
@@ -113,7 +114,11 @@ line-height: 1.6;
 text-align: center;
 color:var(--primary-text-color);
 }
-
+.btn:hover,
+.btn:focus {
+    background-color:var(--accent-color);
+    color: var(--discription-text-color); 
+}
   /* section about*/
   .feature-item {
 font-weight: 700;
